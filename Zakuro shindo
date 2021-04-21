@@ -43,7 +43,7 @@ Glow = Color3.fromRGB(0, 0, 0),
 Accent = Color3.fromRGB(10, 10, 10),
 LightContrast = Color3.fromRGB(20, 20, 20),
 DarkContrast = Color3.fromRGB(14, 14, 14),
-TextColor = Color3.fromRGB(75, 0, 130)
+TextColor = Color3.fromRGB(255, 255, 255)
 }
 
 -- first page
@@ -505,7 +505,7 @@ local page5 = venyx:addPage("Discord", 5012544693)
 local Discord = page5:addSection("Mission Farm")
 
 Discord:addButton("Copy Discord Link", function()
-    setclipboard("https://discord.gg/kS9mrChF4m")
+    setclipboard("https://discord.gg/5KvqHAceTk")
 end)
     
 -- Theme page
