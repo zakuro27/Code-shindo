@@ -67,6 +67,8 @@ section2:addButton("Close", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/Infmodeclose", true))()
 end)
 
+section3:addButton("Open", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/nqyGkWvx", true))()
 
 --Two page
 local page2 = venyx:addPage("Autofarm", 5012544693)
