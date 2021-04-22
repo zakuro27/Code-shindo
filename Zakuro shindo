@@ -107,7 +107,8 @@ getgenv().speed = 500
 --Warmode Page
 local warmodepage = venyx:addPage("War Farm", 5012544693)
 local warfarm = warmodepage:addSection("Warmode")
-
+local w = library:CreateWindow("WAR - Shindo Life")
+local c = w:CreateFolder("War Farm")
 
 local war 
 	c:Toggle("Farm War",function(bool)
