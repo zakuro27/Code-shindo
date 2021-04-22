@@ -103,21 +103,6 @@ getgenv().speed = 500
 		scrollfarm = bool
     end)
     
-
---Warmode Page
-local warmodepage = venyx:addPage("War Farm", 5012544693)
-local warfarm = warmodepage:addSection("Warmode")
-
-local war
-    warfarm:addToggle("Warmode", nil, function(bool)
-	   war = bool
-	end)
-	
-    local reset
-    warfarm:addToggle("Reset round 21", nil, function(bool)
-        reset = bool
-    end)
-
 --Three page
 local page3 = venyx:addPage("Quests Maker", 5012544693)
 local d = page3:addSection("Quests Maker")
