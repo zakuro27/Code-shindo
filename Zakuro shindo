@@ -50,7 +50,7 @@ TextColor = Color3.fromRGB(255, 255, 255)
 local page = venyx:addPage("Main", 5012544693)
 local section1 = page:addSection("Auto Doge")
 local section2 = page:addSection("Inf Mode")
-local section3 = page:addSection("ESP")
+local section3 = page:addSection("ESP/Xray")
 
 section1:addButton("Open", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/Autoopen", true))()
