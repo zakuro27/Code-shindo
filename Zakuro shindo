@@ -108,10 +108,9 @@ getgenv().speed = 500
 local warmodepage = venyx:addPage("War Farm", 5012544693)
 local warfarm = warmodepage:addSection("Warmode")
 
-local war
-    warfarm:addButton("Open", function()
-	   loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2-hub/main/war", true))()
-	end)
+warfarm:addButton("Open", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2-hub/main/war", true))()
+end)
 	
 --Four page
 if game.PlaceId == menuplace then
