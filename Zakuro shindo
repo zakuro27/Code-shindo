@@ -111,7 +111,6 @@ local warfarm = warmodepage:addSection("Warmode")
 local war
     warfarm:addButton("Open", function()
 	   loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2-hub/main/war", true))()
-	   war = bool
 	end)
 	
 --Four page
