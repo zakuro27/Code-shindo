@@ -103,7 +103,6 @@ getgenv().speed = 500
 		scrollfarm = bool
     end)
     
-	
 --Four page
 if game.PlaceId == menuplace then
 local inf = venyx:addPage("Inf Spin", 5012544693)
