@@ -110,6 +110,7 @@ local warfarm = warmodepage:addSection("Warmode")
 
 local war
     warfarm:addToggle("Warmode", nil, function(bool)
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2-hub/main/war"))()
 	   war = bool
 	end)
 	
